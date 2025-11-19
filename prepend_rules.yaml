@@ -10,7 +10,7 @@ name: "My Apple Proxy"
 desc: "强制 Apple Relay 走美国节点"
 priority: 100
 
-prepend-rules:
+rules:
   - DOMAIN-SUFFIX,smoot.apple.com,🇺🇲 美国Z01
   - DOMAIN,guzzoni.apple.com,🇺🇲 美国Z01
   - DOMAIN,apple-relay.cloudflare.com,🇺🇲 美国Z01

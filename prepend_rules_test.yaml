@@ -2,6 +2,6 @@ name: "Apple Debug"
 desc: "调试用"
 priority: 100
 
-prepend-rules:
+rules:
   - DOMAIN-SUFFIX,smoot.apple.com,DIRECT
   - DOMAIN,guzzoni.apple.com,DIRECT
