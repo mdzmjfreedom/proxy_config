@@ -1,7 +1,19 @@
-payload:
-  - DOMAIN-SUFFIX,smoot.apple.com
-  - DOMAIN,guzzoni.apple.com
-  - DOMAIN,apple-relay.cloudflare.com
-  - DOMAIN,apple-relay.fastly-edge.com
-  - DOMAIN,cp4.cloudflare.com
-  - DOMAIN,apple-relay.apple.com
+#payload:
+#  - DOMAIN-SUFFIX,smoot.apple.com
+#  - DOMAIN,guzzoni.apple.com
+#  - DOMAIN,apple-relay.cloudflare.com
+#  - DOMAIN,apple-relay.fastly-edge.com
+#  - DOMAIN,cp4.cloudflare.com
+#  - DOMAIN,apple-relay.apple.com
+
+name: "My Apple Proxy"
+desc: "强制 Apple Relay 走美国节点"
+priority: 100
+
+prepend-rules:
+  - DOMAIN-SUFFIX,smoot.apple.com,🇺🇲 美国Z01
+  - DOMAIN,guzzoni.apple.com,🇺🇲 美国Z01
+  - DOMAIN,apple-relay.cloudflare.com,🇺🇲 美国Z01
+  - DOMAIN,apple-relay.fastly-edge.com,🇺🇲 美国Z01
+  - DOMAIN,cp4.cloudflare.com,🇺🇲 美国Z01
+  - DOMAIN,apple-relay.apple.com,🇺🇲 美国Z01
