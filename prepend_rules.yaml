@@ -1,0 +1,7 @@
+payload:
+  - DOMAIN-SUFFIX,smoot.apple.com,🇺🇲 美国Z01
+  - DOMAIN,guzzoni.apple.com,🇺🇲 美国Z01
+  - DOMAIN,apple-relay.cloudflare.com,🇺🇲 美国Z01
+  - DOMAIN,apple-relay.fastly-edge.com,🇺🇲 美国Z01
+  - DOMAIN,cp4.cloudflare.com,🇺🇲 美国Z01
+  - DOMAIN,apple-relay.apple.com,🇺🇲 美国Z01
