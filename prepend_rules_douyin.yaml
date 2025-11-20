@@ -1,0 +1,8 @@
+name: "My Douyin Proxy"
+desc: "强制 Douyin 走美国节点"
+priority: 100
+
+rules:
+  - DOMAIN-SUFFIX,douyin.com,🇺🇲 美国Z01
+  - DOMAIN-SUFFIX,douyinpic.com,🇺🇲 美国Z01
+  - DOMAIN-SUFFIX,douyinstatic.com,🇺🇲 美国Z01

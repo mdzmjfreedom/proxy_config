@@ -1,14 +1,8 @@
 name: "My Apple Proxy"
-desc: "强制 Apple Relay 走美国节点"
+desc: "强制 Apple Relay 走台湾节点"
 priority: 100
 
 rules:
-#  - DOMAIN-SUFFIX,smoot.apple.com,🇺🇲 美国Z01
-#  - DOMAIN,guzzoni.apple.com,🇺🇲 美国Z01
-#  - DOMAIN,apple-relay.cloudflare.com,🇺🇲 美国Z01
-#  - DOMAIN,apple-relay.fastly-edge.com,🇺🇲 美国Z01
-#  - DOMAIN,cp4.cloudflare.com,🇺🇲 美国Z01
-#  - DOMAIN,apple-relay.apple.com,🇺🇲 美国Z01
   - DOMAIN-SUFFIX,smoot.apple.com,🇨🇳 台湾Z01 | IEPL | x2
   - DOMAIN,guzzoni.apple.com,🇨🇳 台湾Z01 | IEPL | x2
   - DOMAIN,apple-relay.cloudflare.com,🇨🇳 台湾Z01 | IEPL | x2
