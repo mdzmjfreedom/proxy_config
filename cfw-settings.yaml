@@ -1,0 +1,115 @@
+showNewVersionIcon: true
+hideAfterStartup: false
+randomControllerPort: true
+runTimeFormat: "hh : mm : ss"
+trayOrders:
+  - - icon
+  - - status
+    - traffic
+    - text
+hideTrayIcon: false
+connShowProcess: true
+showTrayProxyDelayIndicator: true
+checkForUpdates: true
+randomMixedPort: false
+theme: 0
+mixinText: "mixin: # object"
+trayScriptManualRunTime: 1736383367892
+mixinType: 0
+editor: 0
+shortcutSystemProxy: Alt+e
+shortcutGlobalMode: Alt+g
+shortcutRuleMode: Alt+r
+shortcutDirectMode: Alt+d
+shortcutScriptMode: ""
+disableLoadingAdsLink: true
+language: 0
+profileParsersText: >-
+  parsers:
+    - url: https://a8puu.no-mad-world.club/link/uZlVBmUTWMlm0btqZ?clash=3&extend=1
+      yaml:
+        prepend-rules:
+          - DOMAIN-SUFFIX,ztoeco.com,DIRECT
+          - DOMAIN-SUFFIX,ztocc.com,DIRECT
+          - DOMAIN-SUFFIX,zto.com,DIRECT
+          - DOMAIN-SUFFIX,qq.com,DIRECT
+          - DOMAIN-SUFFIX,dingtalk.com,DIRECT
+          - DOMAIN-SUFFIX,aliyun.com,DIRECT
+          - DOMAIN-SUFFIX,aliyuncs.com,DIRECT
+          - DOMAIN-SUFFIX,zt-express.com,DIRECT
+          - DOMAIN-SUFFIX,sogou.com,DIRECT
+          - DOMAIN-SUFFIX,sogoucdn.com,DIRECT
+          - DOMAIN-SUFFIX,baidu.com,DIRECT
+          - DOMAIN-SUFFIX,gov.cn,DIRECT
+          - DOMAIN-SUFFIX,gov.com,DIRECT
+          - DOMAIN-SUFFIX,taobao.com,DIRECT
+          - DOMAIN-SUFFIX,alibaba.com,DIRECT
+          - DOMAIN-SUFFIX,alicdn.com,DIRECT
+          - DOMAIN-SUFFIX,mmstat.com,DIRECT
+          - DOMAIN-SUFFIX,weixin.com,DIRECT
+          - DOMAIN-SUFFIX,weixin.qq.com,DIRECT
+          - DOMAIN-SUFFIX,weixinbridge.com,DIRECT
+          - DOMAIN-SUFFIX,douyin.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,douyinpic.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,douyinstatic.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,douyinvod.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,douyincdn.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,bytedance.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,byteimg.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,zijieapi.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,bytednsdoc.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,ibytedapm.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,bytegoofy.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,bytescm.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,bytetos.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,bytetcc.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,bytegecko.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,amemv.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,doubao.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,zjcdn.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,bytehwm.com,🇺🇲 美国Z01
+    - url: https://a8puu.no-mad-world.club/link/4dQ3o6rxcOtUSwavM?clash=3&extend=1
+      yaml:
+        prepend-rules:
+          - DOMAIN-SUFFIX,ztoeco.com,DIRECT
+          - DOMAIN-SUFFIX,ztocc.com,DIRECT
+          - DOMAIN-SUFFIX,zto.com,DIRECT
+          - DOMAIN-SUFFIX,qq.com,DIRECT
+          - DOMAIN-SUFFIX,dingtalk.com,DIRECT
+          - DOMAIN-SUFFIX,aliyun.com,DIRECT
+          - DOMAIN-SUFFIX,aliyuncs.com,DIRECT
+          - DOMAIN-SUFFIX,zt-express.com,DIRECT
+          - DOMAIN-SUFFIX,sogou.com,DIRECT
+          - DOMAIN-SUFFIX,sogoucdn.com,DIRECT
+          - DOMAIN-SUFFIX,baidu.com,DIRECT
+          - DOMAIN-SUFFIX,gov.cn,DIRECT
+          - DOMAIN-SUFFIX,gov.com,DIRECT
+          - DOMAIN-SUFFIX,taobao.com,DIRECT
+          - DOMAIN-SUFFIX,alibaba.com,DIRECT
+          - DOMAIN-SUFFIX,alicdn.com,DIRECT
+          - DOMAIN-SUFFIX,mmstat.com,DIRECT
+          - DOMAIN-SUFFIX,weixin.com,DIRECT
+          - DOMAIN-SUFFIX,weixin.qq.com,DIRECT
+          - DOMAIN-SUFFIX,weixinbridge.com,DIRECT
+          - DOMAIN-SUFFIX,douyin.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,douyinpic.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,douyinstatic.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,douyinvod.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,douyincdn.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,bytedance.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,byteimg.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,zijieapi.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,bytednsdoc.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,ibytedapm.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,bytegoofy.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,bytescm.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,bytetos.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,bytetcc.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,bytegecko.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,amemv.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,doubao.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,zjcdn.com,🇺🇲 美国Z01
+          - DOMAIN-SUFFIX,bytehwm.com,🇺🇲 美国Z01
+
+shortcutShowHideDashboard: ""
+trayProxiesStyle: 0
