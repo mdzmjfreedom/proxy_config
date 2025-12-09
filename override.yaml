@@ -16,5 +16,4 @@ append-proxies:
     cipher: aes-256-cfb
     password: G8Uj5D3Sh9aV1cIeFQ[sAy'R%*vd]TB4t.rO
 commands: # Stash 支持简单 commands（类似 CFW，但简化）
-  #- proxy-groups."🔰 选择节点".proxies #!append SELF-USA  # 追加到末尾（用 #!append 避免 slice 错误）
-  - proxy-groups.(🔰 选择节点).proxies=[]proxyNames
+  - proxy-groups."🔰 选择节点".proxies !append SELF-USA
