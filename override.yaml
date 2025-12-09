@@ -1,0 +1,14 @@
+name: Custom Override
+desc: 自定义覆写
+
+prepend-proxies:
+  - name: SELF-USA
+    type: ss
+    server: 137.184.89.173
+    port: 45870
+    cipher: aes-256-cfb
+    password: G8Uj5D3Sh9aV1cIeFQ[sAy'R%*vd]TB4t.rO
+proxy-groups:
+  - name: 🔰 选择节点
+    proxies:
+      - SELF-USA
