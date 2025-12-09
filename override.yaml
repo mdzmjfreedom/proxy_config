@@ -8,11 +8,12 @@ prepend-proxies:
     port: 45870
     cipher: aes-256-cfb
     password: G8Uj5D3Sh9aV1cIeFQ[sAy'R%*vd]TB4t.rO
-proxy-groups:
-  - name: 🔰 选择节点
-    type: select
-    interval: -1 # 每 300s 检查一次
-    lazy: false # 在策略组没有被使用时候，不进行延迟测试
-    include-all: true # 引用所有 proxies & proxy-providers
-    proxies:
-      - SELF-USA
+append-proxies:
+  - name: SELF-USA-LAST
+    type: ss
+    server: 137.184.89.173
+    port: 45870
+    cipher: aes-256-cfb
+    password: G8Uj5D3Sh9aV1cIeFQ[sAy'R%*vd]TB4t.rO
+commands: # Stash 支持简单 commands（类似 CFW，但简化）
+  - proxy-groups."🔰 选择节点".proxies #!append SELF-USA  # 追加到末尾（用 #!append 避免 slice 错误）
