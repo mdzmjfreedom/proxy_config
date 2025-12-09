@@ -11,8 +11,8 @@ prepend-proxies:
 proxy-groups:
   - name: 🔰 选择节点
     type: select
-    proxies:
-      - SELF-USA
     interval: -1 # 每 300s 检查一次
     lazy: false # 在策略组没有被使用时候，不进行延迟测试
     include-all: true # 引用所有 proxies & proxy-providers
+    proxies:
+      - SELF-USA
