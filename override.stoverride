@@ -4,9 +4,9 @@ desc: 自定义覆写
 prepend-proxies:
   - name: SELF-USA
     type: ss
-    server: xx.xx.xx.xx
+    server: 137.184.89.173
     port: 45870
     cipher: aes-256-cfb
-    password: xxxx
-commands: # Stash 支持简单 commands（类似 CFW，但简化）
-  - proxy-groups."🔰 选择节点".proxies #!append SELF-USA
+    password: G8Uj5D3Sh9aV1cIeFQ[sAy'R%*vd]TB4t.rO
+commands:
+  - proxy-groups.(🔰 选择节点).proxies.0+SELF-USA
