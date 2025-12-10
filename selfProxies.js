@@ -2,6 +2,8 @@
  * @param {object} config - 原配置文件内容
  */
 function main(config) {
+    console.log(config);
+
     // 1. 定义自定义proxies
     const selfProxies = {
         "name": "SELF-PROXIES",
