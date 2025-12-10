@@ -1,0 +1,61 @@
+name: Custom Override
+desc: 自定义覆写
+
+prepend-proxies:
+  - name: SELF-USA
+    type: ss
+    server: 137.184.89.173
+    port: 45870
+    cipher: aes-256-cfb
+    password: G8Uj5D3Sh9aV1cIeFQ[sAy'R%*vd]TB4t.rO
+  # append-proxies:
+  #   - name: SELF-USA-LAST
+  #     type: ss
+  #     server: 137.184.89.173
+  #     port: 45870
+  #     cipher: aes-256-cfb
+  #     password: G8Uj5D3Sh9aV1cIeFQ[sAy'R%*vd]TB4t.rO
+commands:
+  - proxy-groups.(🔰 选择节点).proxies=[]proxyNames
+prepend-rules:
+  - DOMAIN-SUFFIX,qq.com,DIRECT
+  - DOMAIN-SUFFIX,dingtalk.com,DIRECT
+  - DOMAIN-SUFFIX,aliyun.com,DIRECT
+  - DOMAIN-SUFFIX,aliyuncs.com,DIRECT
+  - DOMAIN-SUFFIX,sogou.com,DIRECT
+  - DOMAIN-SUFFIX,sogoucdn.com,DIRECT
+  - DOMAIN-SUFFIX,baidu.com,DIRECT
+  - DOMAIN-SUFFIX,gov.cn,DIRECT
+  - DOMAIN-SUFFIX,gov.com,DIRECT
+  - DOMAIN-SUFFIX,taobao.com,DIRECT
+  - DOMAIN-SUFFIX,alibaba.com,DIRECT
+  - DOMAIN-SUFFIX,alicdn.com,DIRECT
+  - DOMAIN-SUFFIX,mmstat.com,DIRECT
+  - DOMAIN-SUFFIX,weixin.com,DIRECT
+  - DOMAIN-SUFFIX,weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,weixinbridge.com,DIRECT
+  - DOMAIN-SUFFIX,douyin.com,🇺🇲 美国Z01
+  - DOMAIN-SUFFIX,douyinpic.com,🇺🇲 美国Z01
+  - DOMAIN-SUFFIX,douyinstatic.com,🇺🇲 美国Z01
+  - DOMAIN-SUFFIX,douyinvod.com,🇺🇲 美国Z01
+  - DOMAIN-SUFFIX,douyincdn.com,🇺🇲 美国Z01
+  - DOMAIN-SUFFIX,bytedance.com,🇺🇲 美国Z01
+  - DOMAIN-SUFFIX,byteimg.com,🇺🇲 美国Z01
+  - DOMAIN-SUFFIX,zijieapi.com,🇺🇲 美国Z01
+  - DOMAIN-SUFFIX,bytednsdoc.com,🇺🇲 美国Z01
+  - DOMAIN-SUFFIX,ibytedapm.com,🇺🇲 美国Z01
+  - DOMAIN-SUFFIX,bytegoofy.com,🇺🇲 美国Z01
+  - DOMAIN-SUFFIX,bytescm.com,🇺🇲 美国Z01
+  - DOMAIN-SUFFIX,bytetos.com,🇺🇲 美国Z01
+  - DOMAIN-SUFFIX,bytetcc.com,🇺🇲 美国Z01
+  - DOMAIN-SUFFIX,bytegecko.com,🇺🇲 美国Z01
+  - DOMAIN-SUFFIX,amemv.com,🇺🇲 美国Z01
+  - DOMAIN-SUFFIX,doubao.com,🇺🇲 美国Z01
+  - DOMAIN-SUFFIX,zjcdn.com,🇺🇲 美国Z01
+  - DOMAIN-SUFFIX,bytehwm.com,🇺🇲 美国Z01
+  - DOMAIN-SUFFIX,smoot.apple.com,🇨🇳 台湾Z01 | IEPL | x2
+  - DOMAIN,guzzoni.apple.com,🇨🇳 台湾Z01 | IEPL | x2
+  - DOMAIN,apple-relay.cloudflare.com,🇨🇳 台湾Z01 | IEPL | x2
+  - DOMAIN,apple-relay.fastly-edge.com,🇨🇳 台湾Z01 | IEPL | x2
+  - DOMAIN,cp4.cloudflare.com,🇨🇳 台湾Z01 | IEPL | x2
+  - DOMAIN,apple-relay.apple.com,🇨🇳 台湾Z01 | IEPL | x2
