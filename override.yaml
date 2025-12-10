@@ -1,23 +1,10 @@
 name: Custom Override
 desc: 自定义覆写
 
-proxies:
-  - name: SELF-USA
-    type: ss
-    server: 137.184.89.173
-    port: 45870
-    cipher: aes-256-cfb
-    password: G8Uj5D3Sh9aV1cIeFQ[sAy'R%*vd]TB4t.rO
-proxy-providers:
-  custom-nodes:
-    proxies:
-      - SELF-USA
-#proxy-groups:
-#  - include-all: true
-#  - name: 🔰 选择节点
-#    type: select
-#    proxies:
-#      - SELF-USA
+script-providers:
+  your-script-name:
+    url: https://raw.githubusercontent.com/mdzmjfreedom/proxy_config/refs/heads/master/selfProxies.js
+    interval: 86400
 rules:
   - DOMAIN-SUFFIX,qq.com,DIRECT
   - DOMAIN-SUFFIX,dingtalk.com,DIRECT
