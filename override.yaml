@@ -8,7 +8,6 @@ proxies:
     port: 45870
     cipher: aes-256-cfb
     password: G8Uj5D3Sh9aV1cIeFQ[sAy'R%*vd]TB4t.rO
-
 proxy-providers:
   custom:
     proxies:
