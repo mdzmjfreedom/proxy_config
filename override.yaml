@@ -8,12 +8,18 @@ proxies:
     port: 45870
     cipher: aes-256-cfb
     password: G8Uj5D3Sh9aV1cIeFQ[sAy'R%*vd]TB4t.rO
+
+proxy-providers:
+  custom:
+    proxies:
+      - name: SELF-USA
 proxy-groups:
   - name: 🔰 选择节点
     type: select
-    include-all: true
-    proxies: #!replace
-      - SELF-USA
+    use: [custom, remote-provider]  # 先自定义 provider，再远程
+    # include-all: true
+    # proxies:
+    #   - SELF-USA
 rules:
   - DOMAIN-SUFFIX,qq.com,DIRECT
   - DOMAIN-SUFFIX,dingtalk.com,DIRECT
